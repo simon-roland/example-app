@@ -13,8 +13,6 @@ use Laravel\Nova\Http\Requests\NovaRequest;
 
 class User extends Resource
 {
-    public static $perPageOptions = [5, 25, 50, 100];
-
     /**
      * The model the resource corresponds to.
      *
